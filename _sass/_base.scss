@@ -4,8 +4,14 @@
 
 // Typography
 
+// html * {
+//   font-family: "Roboto", "DM Sans", sans-serif;
+// }
+
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: "Roboto", "DM Sans", sans-serif;
+  // font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 hr {
@@ -99,7 +105,7 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    // font-family: monospace;
     p {
       display: inline-block;
       margin: 0;
@@ -248,7 +254,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -287,8 +293,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 0.9rem;
 }
 
@@ -329,7 +335,7 @@ footer.sticky-bottom {
   padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
@@ -353,7 +359,7 @@ footer.sticky-bottom {
 
 .post-list {
   margin: 0;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding: 0;
   li {
     border-bottom: 1px solid var(--global-divider-color);
@@ -541,10 +547,10 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
