@@ -8,7 +8,7 @@ middle_name: (Cyrus)
 last_name: Chiang
 email: cyrusyc@berkeley.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Research Assistant @ NTU, Visiting Scholar @ UC Berkeley MechE
+  PhD Student @ UC Berkeley
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -75,7 +75,7 @@ scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: # your ID on Publons
+publons_id: GLR-2596-2022 # your ID on Publons
 research_gate_profile: Yuan-Chiang-2 # your profile on ResearchGate
 blogger_url: # your blogger URL
 work_url: # work page URL
