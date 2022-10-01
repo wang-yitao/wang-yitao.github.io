@@ -2,14 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: Research Assistant @ NTU, Visiting Scholar @ UC Berkeley MechE
+subtitle: PhD student @ UC Berkeley MSE
 
 profile:
   align: right
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <center>Find me out also below<br>
+    <center>for more info<br>
     <a href="https://bit.ly/cy-gs">Google Scholar</a> | <a href="https://www.dropbox.com/s/affumrmmf1flc1c/cv-YuanChiang.pdf?dl=0">CV</a> | <a href="https://github.com/chiang-yuan">GitHub</a>
 
 news: true  # includes a list of news items
@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! You have bumped into Yuan's personal website. I am now a visiting scholar at [UC Berkeley](https://www.berkeley.edu/), working with [Prof. Grace Gu](https://gu.berkeley.edu/) in [Mechanical Engineering](https://me.berkeley.edu/).
+Welcome! You have bumped into Yuan's personal website. I am now a PhD student in Materials Science and Engineering at [UC Berkeley](https://www.berkeley.edu/), working with [Prof. Mark Asta](https://asta.mse.berkeley.edu/).
 
 **My research interests** broadly lie in computational materials physics and mechanics at the atomic and molecular levels, with an emphasis on the theory and application of *ab initio* calculations, molecular dynamics, and machine learning to tackle challenges across energy, materials, pharmaceutics, devices, and computing. The nature of my research is highly multidisciplinary, requiring a knack to analyze and interpret a wealth amount of data in multi-scale systems across different time (from femtoseconds to years) and length (from Angstroms to meters) scales. 
 

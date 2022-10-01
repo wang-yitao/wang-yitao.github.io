@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-subtitle: Please see <a href="https://bit.ly/cy-gs">Google Scholar</a> for the latest list.
+subtitle: Please see <a href="https://bit.ly/cy-gs">Google Scholar</a> for the up-to-date list.
 
 years: [2022, 2021]
 nav: true
