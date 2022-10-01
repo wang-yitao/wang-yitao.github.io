@@ -9,6 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
+    <center>
     <a href="https://bit.ly/cy-gs">Google Scholar</a> | <a href="https://www.dropbox.com/s/affumrmmf1flc1c/cv-YuanChiang.pdf?dl=0">CV</a> | <a href="https://github.com/chiang-yuan">GitHub</a>
 
 news: true  # includes a list of news items
