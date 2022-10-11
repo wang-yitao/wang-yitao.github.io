@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! You have bumped into Yuan's personal website. I am now a PhD student in Materials Science and Engineering at [UC Berkeley](https://www.berkeley.edu/), working with [Prof. Mark Asta](https://asta.mse.berkeley.edu/).
+Welcome! You have bumped into Yuan's personal website. I am now a PhD student in Materials Science and Engineering at [UC Berkeley](https://www.berkeley.edu/).
 
 **My research interests** broadly lie in computational materials physics and mechanics at the atomic and molecular levels, with an emphasis on the theory and application of *ab initio* calculations, molecular dynamics, and machine learning to tackle challenges across energy, materials, pharmaceutics, devices, and computing. The nature of my research is highly multidisciplinary, requiring a knack to analyze and interpret a wealth amount of data in multi-scale systems across different time (from femtoseconds to years) and length (from Angstroms to meters) scales. 
 
