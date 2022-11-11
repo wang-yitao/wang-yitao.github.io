@@ -24,11 +24,14 @@
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">{{entry.title}}</div>
-        <!-- Author -->
-        <div class="author">
-        {% assign author_array_size = entry.author_array | size %}
+        {% if entry.type == "thesis" -%}
+          {{reference}}
+        {%- else %}
+          <!-- Title -->
+          <div class="title"><a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button"><b>{{entry.title}}</b></a></div>
+          <!-- Author -->
+          <div class="author">
+          {% assign author_array_size = entry.author_array | size %}
 
         {% assign author_array_limit = author_array_size %}
         {%- if site.max_author_limit and author_array_size > site.max_author_limit %}
