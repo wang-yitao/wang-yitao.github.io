@@ -28,7 +28,7 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title"><b>{{entry.title}}</b></div>
+          <div class="title"><a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button"><b>{{entry.title}}</b></a></div>
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}

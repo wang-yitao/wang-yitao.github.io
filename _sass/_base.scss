@@ -610,7 +610,7 @@ pre {
     background-color: transparent;
     border-radius: 0;
     padding: 0;
-    font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "liberation mono", "Courier New", monospace;
+    font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
   }
 }
 
@@ -619,7 +619,7 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
-  font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "liberation mono", "Courier New", monospace;
+  font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
 }
 
 
@@ -661,9 +661,9 @@ html.transition *:after {
       pre {
         code {
           pre {
-            font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "liberation mono", "Courier New", monospace;
+            font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
             span {
-              font-family: "SFMono-Regular", "Menlo", "Monaco", "Consolas", "liberation mono", "Courier New", monospace;
+              font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
             }
           }
         }

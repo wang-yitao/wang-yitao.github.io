@@ -32,6 +32,53 @@ d-article {
     display: inline;
   }
 
+  figure.highlight {
+    pre {
+      code {
+        background-color: transparent;
+        font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+        span {
+          font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+        }
+      }
+    }
+  }
+
+
+  div {
+    .highlight {
+      pre {
+        code {
+          background-color: transparent;
+          font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+          span {
+            font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+          }
+        }
+      }
+    }
+  }
+
+  d-code {
+    background-color: transparent;
+    text-shadow: transparent; 
+    pre {
+      background-color: transparent;
+      text-shadow: transparent;
+      code {
+        background-color: transparent;
+        text-shadow: transparent;
+        font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+        span {
+          font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+          background-color: transparent;
+          text-shadow: transparent;
+        }
+      }
+    }
+  }
+
+
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
