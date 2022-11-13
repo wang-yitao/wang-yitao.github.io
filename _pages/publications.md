@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 subtitle: Please see <a href="https://bit.ly/cy-gs">Google Scholar</a> for the up-to-date list.
 
-years: [2022, 2021]
+years: [2022, 2021, 2020]
 nav: true
 nav_order: 1
 ---
