@@ -18,7 +18,7 @@
                     {% if item.inline -%} 
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%} 
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                      {{ item.title }} <a class="news-title" href="{{ item.url | relative_url }}">Read more...</a>
                     {%- endif %} 
                   </td>
                 </tr>
