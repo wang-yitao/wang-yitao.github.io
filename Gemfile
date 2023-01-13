@@ -10,6 +10,7 @@ group :jekyll_plugins do
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
+    gem 'jekyll-link-attributes'
     gem 'jekyll-twitter-plugin'
     gem 'jekyll-target-blank'
     gem 'jemoji'
