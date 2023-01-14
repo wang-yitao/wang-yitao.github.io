@@ -1,5 +1,5 @@
 
           <div class="publications">
-            <h3><b>Selected Publications</b></h3>
+            <h3><b><a class="silent-link" href="{{ '/publications/' | relative_url }}">Selected Publications</a></b></h3>
             {% bibliography -f papers -q @*[selected=true]* %}
           </div>

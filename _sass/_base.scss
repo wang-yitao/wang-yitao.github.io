@@ -492,6 +492,12 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+  .silent-link {
+    color: var(--global-text-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
   ol.bibliography {
     list-style: none;
     padding: 0;
