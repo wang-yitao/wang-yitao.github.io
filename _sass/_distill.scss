@@ -59,24 +59,24 @@ d-article {
   //   }
   // }
 
-  // d-code {
-  //   background-color: transparent;
-  //   text-shadow: transparent; 
-  //   pre {
-  //     background-color: transparent;
-  //     text-shadow: transparent;
-  //     code {
-  //       background-color: transparent;
-  //       text-shadow: transparent;
-  //       font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-  //       span {
-  //         font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-  //         background-color: transparent;
-  //         text-shadow: transparent;
-  //       }
-  //     }
-  //   }
-  // }
+  d-code {
+    background-color: transparent;
+    text-shadow: transparent; 
+    pre {
+      background-color: transparent;
+      text-shadow: transparent;
+      code {
+        background-color: transparent;
+        text-shadow: transparent;
+        font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+        span {
+          font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+          background-color: transparent;
+          text-shadow: transparent;
+        }
+      }
+    }
+  }
 
 
   d-contents {
