@@ -674,17 +674,19 @@ html.transition *:after {
       pre {
         code {
           pre {
-            font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+            font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+            // font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
             span {
-              font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+              font-family: "Monaco", "Consolas", "Lucida Console", monospace;
             }
           }
         }
       }
       pre.highlight {
         code {
+          font-family: "Monaco", "Consolas", "Lucida Console", monospace;
           span {
-            font-family: "Monaco", "Consolas", "Lucida Console", monospace; 
+            font-family: "Monaco", "Consolas", "Lucida Console", monospace;
           }
         }
       }
