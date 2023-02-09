@@ -1,10 +1,6 @@
 ---
 layout: post
 title: How to manage your github repo for your cloned website
-date: 
-description: 
-tags: 
-categories: 
 ---
 
 Since I have been using [al-folio]() theme for a while and have modified a large portion of code to suit my purposes and aesthetics, it might be good to keep track of the developing process and meanwhile to keep my website up-to-date with the upstream branch to have new functionality. 
