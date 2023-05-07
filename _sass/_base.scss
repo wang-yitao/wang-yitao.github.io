@@ -6,8 +6,7 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
-  font-family: "Roboto", "Open Sans", "DM Sans", sans-serif;
-  // font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  // font-family: "Roboto", "Open Sans", "DM Sans", sans-serif;
 }
 
 hr {
@@ -43,7 +42,7 @@ blockquote {
   border-left: 2px solid var(--global-theme-color);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 // Math
@@ -51,6 +50,12 @@ blockquote {
 .equation {
   margin-bottom: 1rem;
   text-align: center;
+}
+
+// Emoji
+
+.emoji {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 // Caption
@@ -255,7 +260,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -610,7 +615,7 @@ figure.highlight {
 }
 
 pre {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
@@ -618,17 +623,19 @@ pre {
     background-color: transparent;
     border-radius: 0;
     padding: 0;
+    font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
+    // font-family: "Monaco", "Consolas", "Lucida Console", "DejaVu Sans Mono for Powerline", monospace;
+    // font-family: "DejaVu Sans Mono for Powerline", "Monaco", "Consolas", "Lucida Console", monospace;
     // font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-    font-family: "Monaco", "Consolas", "Lucida Console", monospace;
   }
 }
 
 code {
-  color: var(--global-theme-color);
+  // color: var(--global-text-color);
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
-  font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+  font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
 }
 
 
@@ -643,12 +650,17 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post{
+  .post-title{
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
   .post-meta{
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
   .post-tags{
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     padding-top: 0.25rem;
@@ -662,32 +674,79 @@ html.transition *:after {
     }
   }
   .post-content{
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+    // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
     blockquote {
       border-left: 5px solid var(--global-theme-color);
       padding: 8px;
     }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    iframe {
+      margin: auto;
+      display: block;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+      margin-top: 1em; /* adjust to your desired value */
+      margin-bottom: 0.5em; /* adjust to your desired value */
+    }
     .highlight {
-      pre {
-        code {
-          pre {
-            font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-            // font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-            span {
-              font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-            }
-          }
-        }
-      }
       pre.highlight {
         code {
-          font-family: "Monaco", "Consolas", "Lucida Console", monospace;
           span {
-            font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+            font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
           }
         }
       }
     }
+    // .highlight {
+    //   pre {
+    //     code {
+    //       pre {
+    //         font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+    //         // font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
+    //         span {
+    //           font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+    //         }
+    //       }
+    //     }
+    //   }
+    //   pre.highlight {
+    //     code {
+    //       font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+    //       span {
+    //         font-family: "Monaco", "Consolas", "Lucida Console", monospace;
+    //       }
+    //     }
+    //   }
+    // }
   }
+}
+
+.bmc-btn {
+  min-width: 210px;
+  color: #000000 !important;
+  background-color: #FFDD00 !important;
+  height: 60px;
+  border-radius: 12px;
+  font-size: 28px;
+  font-weight: Normal;
+  border: none;
+  padding: 0px 24px;
+  line-height: 27px;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center;
+  font-family: 'Cookie', cursive !important;
+  -webkit-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+  .bmc-btn-text {
+    color: #000000 !important;
+  } 
 }
 
 progress {

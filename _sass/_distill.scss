@@ -32,53 +32,6 @@ d-article {
     display: inline;
   }
 
-  .highlight {
-    font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-    pre {
-      code {
-        font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-        span {
-          font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-        }
-      }
-    }
-  }
-
-
-  // div {
-  //   .highlight {
-  //     pre {
-  //       code {
-  //         background-color: transparent;
-  //         font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-  //         span {
-  //           font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-
-  d-code {
-    background-color: transparent;
-    text-shadow: transparent; 
-    pre {
-      background-color: transparent;
-      text-shadow: transparent;
-      code {
-        background-color: transparent;
-        text-shadow: transparent;
-        font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-        span {
-          font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-          background-color: transparent;
-          text-shadow: transparent;
-        }
-      }
-    }
-  }
-
-
   d-contents {
     align-self: start;
     grid-column: 1 / 4;
