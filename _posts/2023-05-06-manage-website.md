@@ -86,9 +86,10 @@ bundle exec jekyll serve
 
 When I use windows PC, it is tricky to enable site autoregeneration on WSL. If you execute `bundle exec jekyll serve` on WSL, you will see the warning: 
 
-> Auto-regeneration may not work on some Windows versions. Please see: [https://github.com/Microsoft/BashOnWindows/issues/216](https://github.com/Microsoft/BashOnWindows/issues/216)
-> 
-> If it does not work, please upgrade Bash on Windows or run Jekyll with --no-watch.
+```bash
+Auto-regeneration may not work on some Windows versions. Please see: https://github.com/Microsoft/BashOnWindows/issues/216
+If it does not work, please upgrade Bash on Windows or run Jekyll with --no-watch.
+```
 
 and jeykll cannot regenerate the side for you automatically after you modify your site content. 
 
