@@ -26,7 +26,7 @@ Since I have been using [al-folio](https://github.com/alshedivat/al-folio) theme
 
 ## Have your first site online in 10 mins
 
-Having your first site online is very simple. To begin with, just choice one template from github repositories ([official docs](https://jekyllrb.com/docs/themes/), [github topics](https://github.com/topics/jekyll-theme), [jekyll-themes.com](https://jekyll-themes.com/)) and follow the instruction to fork, clone and deploy through GitHub Pages. Each template may have different instructions but essentially only three to four steps:
+Having your first site online is very simple. To begin with, just choose one template from github repositories ([official docs](https://jekyllrb.com/docs/themes/), [github topics](https://github.com/topics/jekyll-theme), [jekyll-themes.com](https://jekyll-themes.com/)) and follow the instruction to fork, clone and deploy through GitHub Pages. Each template may have different instructions but essentially only three to four steps:
 
 1. Fork and rename the repository
 2. Clone make change locally
