@@ -18,10 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! You have bumped into Yuan's personal website. I am now a PhD student in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), working with [Prof. Mark Asta](https://asta.mse.berkeley.edu/) on materials under extreme environments in Gen IV molten salt fission reactors (MSR) by leveraging scientific computing and machine learning approaches.
+Welcome! You have bumped into Yuan's personal website. I am now a PhD student in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/), working with [Prof. Mark Asta](https://asta.mse.berkeley.edu/) on materials under extreme environments in Gen IV molten salt fission reactors (MSR) by leveraging quantum mechanical calculation, scientific computing and machine learning.
 
-
-**My research interests** broadly lie in computational materials physics and mechanics at the atomic and molecular levels, with an emphasis on the theory and application of *ab initio* calculations, molecular dynamics, and machine learning to tackle challenges across energy, materials, pharmaceutics, devices, and computing. 
+**My research interests** broadly lie in computational materials physics and chemistry at the atomic and molecular levels, with an emphasis on the theory and application of *ab-initio* calculations, molecular dynamics, and machine learning to tackle challenges across energy, materials, pharmaceutics, devices, and computing. 
 
 **Previously** I earned my BS in [Civil Engineering](http://www.ce.ntu.edu.tw/en/) and MS in [Structural Engineering](http://www.ce.ntu.edu.tw/en/) at [National Taiwan University](https://www.ntu.edu.tw/english/index.html), under the supervision of [Prof. Shu-Wei Chang](https://www.swc-lab.tw/). I was a structural engineering intern at [T.Y. LIN](https://www.tylin.com/) in 2018 and was a full-stack intern at [Ucarer](https://ucarer.tw/) in 2021.
 
