@@ -76,7 +76,7 @@ In the hindsight, I should really clone a local branch first (and of course it i
 
 ## Enable autoregeneration on WSL 
 
-After knowing how to build and update the website, it is time to actively develop the site content. Usually we want to visualize our site before pushing to the repository. To see preview the change, simply run the following command at the site home directory: 
+After knowing how to build and update the website, it is time to actively develop the site content. Usually we want to visualize our site before pushing to the repository. To preview the change, simply run the following command at the site home directory: 
 
 ```bash
 bundle exec jekyll serve
