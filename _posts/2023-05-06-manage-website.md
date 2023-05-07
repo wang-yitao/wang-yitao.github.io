@@ -58,7 +58,15 @@ In the hindsight, I should really clone a local branch first (and of course it i
     git merge master
     ```
 
-3. After resolving all the conflicts, we can safely merge `update` back to `master`
+3. Rebase `update` branch on `upstream`
+
+    ```bash
+    git remote add upstream https://github.com/alshedivat/al-folio.git
+    git fetch upstream
+    git rebase <version>
+    ```
+
+4. After resolving all the conflicts, we can safely merge `update` back to `master`
 
     ```bash
     git checkout master
@@ -67,7 +75,7 @@ In the hindsight, I should really clone a local branch first (and of course it i
     git merge update
     ```
 
-4. Push the updated local `master` to remote repository
+5. Push the updated local `master` to remote repository
 
     ```bash
     git commit -am 'whatever message'
@@ -84,7 +92,7 @@ bundle exec jekyll serve
 
 [Ruby](https://www.ruby-lang.org/en/) will generate a local url (*e.g.* [http://127.0.0.1:4000/](http://127.0.0.1:4000/)) that can be opened by the browser. 
 
-When I use windows PC, it is tricky to enable site autoregeneration on WSL. If you execute `bundle exec jekyll serve` on WSL, you will see the warning: 
+However, when I use windows PC, it is tricky to enable site autoregeneration on WSL. (I am switching to macbook soon anyway 😇) If you execute `bundle exec jekyll serve` on WSL, you will see the warning: 
 
 ```bash
 Auto-regeneration may not work on some Windows versions. Please see: https://github.com/Microsoft/BashOnWindows/issues/216

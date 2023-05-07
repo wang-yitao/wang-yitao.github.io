@@ -283,6 +283,7 @@ blockquote {
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
+  text-align: center;
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
@@ -302,6 +303,7 @@ footer.sticky-bottom {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-size: 0.9rem;
+  text-align: center;
 }
 
 // CV
@@ -340,6 +342,7 @@ footer.sticky-bottom {
   text-align: center;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
   h1 {
     color: var(--global-theme-color);
     font-size: 3rem;
@@ -358,7 +361,7 @@ footer.sticky-bottom {
     p, li {
       list-style: none;
       display: inline-block;
-      padding: 1rem 0.5rem;
+      // padding: 1rem 0.5rem;
       color: var(--global-text-color-light);
     }
   }
@@ -691,6 +694,9 @@ html.transition *:after {
       max-width: 100%;
       margin-top: 1rem;
       margin-bottom: 1rem;
+    }
+    input {
+      margin-right: 0.5em;
     }
     .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
       margin-top: 1em; /* adjust to your desired value */
