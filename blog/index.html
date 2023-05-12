@@ -50,12 +50,12 @@ pagination:
 
     <li>
       {% if post.redirect == blank %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash max-width=site.max_width %}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash width="100%" max-width=site.max_width %}</a>
       {% else %}
         {% if post.redirect contains '://' %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash max-width=site.max_width %}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash width="100%" max-width=site.max_width %}</a>
         {% else %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash max-width=site.max_width %}</a>
+        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash width="100%" max-width=site.max_width %}</a>
         {% endif %}
       {% endif %}
       <h3><b>
