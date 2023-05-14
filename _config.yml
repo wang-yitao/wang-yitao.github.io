@@ -205,7 +205,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-link-attributes
   - jekyll-twitter-plugin
-  - jekyll-jupyter-notebook
   - jemoji
 
 # Sitemap settings
@@ -239,7 +238,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['jekyll', 'math', 'physics', 'materials', 'code', 'python', 'julia', 'website'] # this tags will be dispalyed on the front page of your blog
+display_tags: ['Physics', 'Materials', 'ML', 'Math', 'Python', 'Julia', 'Jekyll'] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
