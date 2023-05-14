@@ -13,7 +13,6 @@ group :jekyll_plugins do
     gem 'jekyll-link-attributes'
     gem 'jekyll-twitter-plugin'
     gem 'jekyll-target-blank'
-    gem 'jekyll-jupyter-notebook'
     gem 'jemoji'
     gem 'mini_racer'
     gem 'unicode_utils'

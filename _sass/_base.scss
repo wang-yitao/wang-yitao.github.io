@@ -711,27 +711,19 @@ html.transition *:after {
         }
       }
     }
-    // .highlight {
-    //   pre {
-    //     code {
-    //       pre {
-    //         font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-    //         // font-family: "Consolas", "SFMono-Regular", "Menlo", "Monaco", "liberation mono", "Courier New", monospace;
-    //         span {
-    //           font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-    //         }
-    //       }
-    //     }
-    //   }
-    //   pre.highlight {
-    //     code {
-    //       font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-    //       span {
-    //         font-family: "Monaco", "Consolas", "Lucida Console", monospace;
-    //       }
-    //     }
-    //   }
-    // }
+  }
+  .post-jupyter {
+    font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
+    pre {
+      border-radius: 0;
+      background-color: var(--jp-cell-editor-background);
+      .nn {
+        text-decoration: none;
+      }
+    }
+    .jp-Cell-outputWrapper pre {
+      background-color: var(--global-bg-color);
+    }
   }
 }
 

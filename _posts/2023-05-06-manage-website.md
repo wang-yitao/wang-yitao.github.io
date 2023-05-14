@@ -1,10 +1,10 @@
 ---
 layout: post
-title: How to clone and manage a jeykll website for personal portfolio and blog
+title: How to clone and manage a jekyll website for personal portfolio and blog
 date: 2023-05-06 18:00:00-0800
 description: 
-tags: website markdown jeykll
-categories: hack
+tags: web-development markdown jekyll frontend
+categories: web-development hack
 giscus_comments: true
 ---
 
@@ -18,7 +18,7 @@ giscus_comments: true
 
 With the expansion of internet and social media, the digital presence becomes increasingly important for professionals in all spheres. It's undeniable that the ones who can reach higher and wider visibility online control more power and opportunities. Fortunately, there are many available and convenient options out there to fast build the website easily from scratch, such as [Wix](https://www.wix.com/), [WordPress](https://wordpress.com/), [Weebly](https://www.weebly.com/), *etc*. 
 
-However, as a control freak and a nerd who loves elegant and neat solutions to every problem, and likes to present (~~show off~~) their coding skills, the GUI options are not an option, and having a static and minimalist [jeykll](https://jekyllrb.com/) website as a platform to showcase the work and idea is almost **the most popular and professional choice**. (You can simply google how other programmers, engineers, and scientists build their sites.)
+However, as a control freak and a nerd who loves elegant and neat solutions to every problem and likes to present (~~show off~~) their coding skills, the GUI options are not an option, and having a static and minimalist [jekyll](https://jekyllrb.com/) website as a platform to showcase the work and idea is almost **the most popular and professional choice**. (You can simply google how other programmers, engineers, and scientists build their sites.)
 
 Of course, there are new and fancy alternatives, like [Gatsby](https://www.gatsbyjs.com/) and [Next.js](https://nextjs.org/), that are empowered by JavaScript to have dazzling animations and interactive functions. They are definitely suitable for organizations and companies that need powerful applications and integration with backend and database. I once used Gatsby to build my personal website and thought this new technology can bring me a lot of convenience. It turned out that it never feels flexible enough for me to adjust style and to create technical content that looks close to the community I identify myself with. *It just doesn't feel right.* 
 
@@ -99,7 +99,7 @@ Auto-regeneration may not work on some Windows versions. Please see: https://git
 If it does not work, please upgrade Bash on Windows or run Jekyll with --no-watch.
 ```
 
-and jeykll cannot regenerate the site for you automatically after you modify your site content. 
+and jekyll cannot regenerate the site for you automatically after you modify your site content. 
 
 ![](../../../assets/post/2023-05-06-18-37-32.png)
 
