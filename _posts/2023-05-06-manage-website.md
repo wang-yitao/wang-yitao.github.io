@@ -12,6 +12,7 @@ giscus_comments: true
 - [Create a local branch before pulling from upstream](#create-a-local-branch-before-pulling-from-upstream)
 - [Enable autoregeneration on WSL](#enable-autoregeneration-on-wsl)
 - [Preview drafts during development](#preview-drafts-during-development)
+- [Too many commits? Try `git squash`](#too-many-commits-try-git-squash)
 - [TODO](#todo)
 
 ---
@@ -117,6 +118,19 @@ Jekyll offers a [functionality](https://jekyllrb.com/docs/posts/#drafts) to prev
 
 ```bash
 bundle exec jekyll serve --force_polling --livereload --drafts
+```
+
+## Too many commits? Try `git squash`
+
+```bash
+git reset --hard HEAD~n # goes back to last n commit
+git reset --hard <sha1-commit-id>
+```
+
+```bash
+git merge --squash HEAD@{1}
+git commit
+git push
 ```
 
 ## TODO

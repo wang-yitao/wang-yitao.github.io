@@ -6,7 +6,6 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
-  // font-family: "Roboto", "Open Sans", "DM Sans", sans-serif;
 }
 
 hr {
@@ -622,6 +621,9 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: "Menlo", "Consolas", "DejaVu Sans Mono for Powerline", monospace;
   pre, code {
     background-color: transparent;
     border-radius: 0;
@@ -713,8 +715,37 @@ html.transition *:after {
     }
   }
   .post-jupyter {
+    // reset the paragraph back to global style
     font-family: 'DM Sans', 'Open Sans', 'Helvetica Neue', sans-serif;
-    pre {
+    .highlight {
+      background-color: var(--global-bg-color);
+    }
+    pre.highlight {
+      background-color: var(--global-code-bg-color);
+      .nc {
+        text-decoration: none;
+      }
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      a {
+        color: var(--global-theme-color);
+        &:hover {
+          color: var(--global-theme-color);
+          text-decoration: underline;
+          text-decoration-color: var(--global-theme-color);
+        }
+        &:hover:after :not(.nav-item.dropdown) {
+          width: 100%;
+        }
+      }
+      strong {
+        font-weight: bold;
+      }
+    }
+    // fix conflicts between global and local styles
+    .jp-Cell-inputWrapper pre {
       border-radius: 0;
       background-color: var(--jp-cell-editor-background);
       .nn {
