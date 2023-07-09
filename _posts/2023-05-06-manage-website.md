@@ -17,7 +17,7 @@ giscus_comments: true
 
 ---
 
-With the expansion of internet and social media, the digital presence becomes increasingly important for professionals in all spheres. It's undeniable that the ones who can reach higher and wider visibility online control more power and opportunities. Fortunately, there are many available and convenient options out there to fast build the website easily from scratch, such as [Wix](https://www.wix.com/), [WordPress](https://wordpress.com/), [Weebly](https://www.weebly.com/), *etc*. 
+Nowadays the digital presence becomes increasingly important for professionals in all spheres. It's undeniable that the ones who can reach higher and wider visibility online control more power and opportunities. Fortunately, there are many available and convenient options out there to fast build the website easily from scratch, such as [Wix](https://www.wix.com/), [WordPress](https://wordpress.com/), [Weebly](https://www.weebly.com/), *etc*. 
 
 However, as a control freak and a nerd who loves elegant and neat solutions to every problem and likes to present (~~show off~~) their coding skills, the GUI options are not an option, and having a static and minimalist [jekyll](https://jekyllrb.com/) website as a platform to showcase the work and idea is almost **the most popular and professional choice**. (You can simply google how other programmers, engineers, and scientists build their sites.)
 
@@ -42,9 +42,9 @@ My friend [Enze Chen](https://enze-chen.github.io/) also shares his [10-step tut
 
 Once I had nightmare when I tried to upgrade the my repository version by directly pulling from the upstream to my master branch. I followed the instruction to rebase the repository to the newest version. However, I already had a too many commits that cause compatibility issue with the newest version, and it turned out I couldn't just cancel the rebase in a clean way halfway through the process. In the end I just killed my local repo and clone it back from my github 💀.
 
-<iframe src="https://giphy.com/embed/qU6cIACupr1l4AI9OV" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/wloGlwOXKijy8" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></p>
 
-In the hindsight, I should really clone a local branch first (and of course it is a good habit) that is not tied to my remote branch and thus would not affect my website even if I couldn't rebase and resolve the conflicts. By doing so, I can safely pull new functionality from the upstream without hurting my own repo. Here are the step-by-step procedures:
+In the hindsight, I should first clone a local branch (and of course it is a good habit) that is not tied to my remote branch and thus would not affect my website even if I couldn't rebase and resolve the conflicts. By doing so, I can safely pull new functionality from the upstream without hurting my own repo. Here are the step-by-step procedures:
 
 1. Create a new branch named `update` based on the current HEAD (in my case just `master` branch) 
     
@@ -52,7 +52,7 @@ In the hindsight, I should really clone a local branch first (and of course it i
     git branch update
     ```
 
-2. Since we may want to make quite, small update on `master` for convenience and only leave `update` branch for upgrading, the `master` might be several commits ahead of the `update` so need to merge change from `master` to `update` before rebasing. 
+2. Since we may want to make quiet, small update on `master` for convenience and only leave `update` branch for upgrading, the `master` might be several commits ahead of the `update` so need to merge change from `master` to `update` before rebasing. 
 
     ```bash
     git checkout update
