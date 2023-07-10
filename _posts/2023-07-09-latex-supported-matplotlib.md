@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Use latex with matplotlib on HPCs
+title: Use LaTeX with matplotlib on HPCs
 date: 2023-07-09 17:00:00-0800
-description: 
+description: Manual installation of LaTex patches without administrative privileges
 tags: latex matplotlib
 categories: hack
 giscus_comments: true
 ---
 
-Have you ever wanted to use LaTeX with matplotlib? You are definitely not alone and there are many tutorials out there that can guide you through the installation process and follow the [official documentation](https://matplotlib.org/stable/tutorials/text/usetex.html).
+Have you ever wanted to use LaTeX with matplotlib? You are definitely not alone. There are many tutorials out there that can guide you through the installation process. Then just follow the [official documentation](https://matplotlib.org/stable/tutorials/text/usetex.html) to make plots by activating `plt.rcParams['text.usetex'] = True`.
 
-What we need to do is just installing typical `latex` by 
+What you need to do is just installing typical `latex` by 
 
 ```bash
 sudo apt update
@@ -48,4 +48,4 @@ Things get tricky when we want to install latex on computers where we don't have
     ./<path to extracted folder>/install-tl-<date>/texmf-dist/scripts/texlive/mktexlsr
     ```
 
-Then voilà! Happy plotting matplotlib supported with latex on any system! Leave comment or buy me a coffee if you like this post! 🙂
+Then voilà! Happy plotting matplotlib supported with latex on any system! Leave a comment or [buy me a coffee](https://buymeacoffee.com/cyrusyc) if you like this post! 🙂
