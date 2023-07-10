@@ -8,9 +8,9 @@ categories: hack
 giscus_comments: true
 ---
 
-Have you ever wanted to use LaTeX with matplotlib? You are definitely not alone. There are many tutorials out there that can guide you through the installation process. Then just follow the [official documentation](https://matplotlib.org/stable/tutorials/text/usetex.html) to make plots by activating `plt.rcParams['text.usetex'] = True`.
+Have you ever wanted to use LaTeX with matplotlib? You are definitely not alone. There are many tutorials out there that can guide you through the installation process. Then we can just follow the [official documentation](https://matplotlib.org/stable/tutorials/text/usetex.html) to make plots by activating `plt.rcParams['text.usetex'] = True`.
 
-What you need to do is just installing typical `latex` by 
+What we need to do is just installing typical `latex` by 
 
 ```bash
 sudo apt update
@@ -18,11 +18,11 @@ sudo apt install texlive # for minimum latex build
 sudo apt install dvipng texlive-latex-extra texlive-fonts-recommended # required by matplotlib
 ```
 
-Then we are good to go! The lightest `texlive` installation is not enough, and if you try to use `plt.rcParams['text.usetex'] = True` you will find there are packages missing like `type1cm.sty`, `dvipng`, *etc*. 
+Then we are good to go! Note that the lightest `texlive` installation is not enough, and if you try to use `plt.rcParams['text.usetex'] = True` you will find there are packages missing like `type1cm.sty`, `dvipng`, *etc*. 
 
 **What if we cannot `sudo` on the specific computer?** Then this post is what you are looking for! 
 
-# I can't sudo!
+# What if I can't sudo!
 
 Things get tricky when we want to install latex on computers where we don't have administrative privileges (such as HPCs). We cannot use `sudo install latex-*` anymore and need to download and install `texlive` manually.
 
@@ -45,7 +45,7 @@ Things get tricky when we want to install latex on computers where we don't have
     ```
 5. Update and link the file by executing `mktexlsr`
     ```bash
-    ./<path to extracted folder>/install-tl-<date>/texmf-dist/scripts/texlive/mktexlsr
+    .<path to texlive folder>/texmf-dist/scripts/texlive/mktexlsr
     ```
 
 Then voilà! Happy plotting matplotlib supported with latex on any system! Leave a comment or [buy me a coffee](https://buymeacoffee.com/cyrusyc) if you like this post! 🙂
