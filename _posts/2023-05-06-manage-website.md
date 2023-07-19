@@ -136,6 +136,6 @@ git push
 ## TODO
 
 - [ ] [Add heading anchor/link button for subtitles](https://blog.briandrupieski.com/generate-anchors-in-jekyll-blog-post)
-- [ ] [Code block copy button]()
+- [x] [Code block copy button]()
 
 
