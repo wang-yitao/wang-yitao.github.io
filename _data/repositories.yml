@@ -5,3 +5,5 @@ github_repos:
   - chiang-yuan/prodar
   - chiang-yuan/csh4lmp
   - chiang-yuan/culsm
+  - materialsproject/pymatgen
+  - jax-md/jax-md
