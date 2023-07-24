@@ -3,7 +3,7 @@ layout: post
 title: Use LaTeX with matplotlib on HPCs
 date: 2023-07-09 17:00:00-0700
 description: Manual installation of LaTex patches without administrative privileges
-tags: latex matplotlib
+tags: latex matplotlib python
 categories: hack
 giscus_comments: true
 ---
