@@ -3,11 +3,10 @@ layout: post-jupyter
 title: Solve spinodal and binodal curves using Julia
 description: 
 date: 2023-07-23 08:00:00-0800
-tags: julia physics materials math
+tags: julia thermodynamics materials math
 categories: hack
 giscus_comments: true
 ---
-
 
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 
@@ -38,7 +37,7 @@ giscus_comments: true
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h2 id="Problem-statement">Problem statement<a class="anchor-link" href="#Problem-statement">&#182;</a></h2><p>Consider an incompressible system of binary particles ($A+B$) with equal volume $v_A = v_B = v$. A mean-field model for the free energy density $f$ is defined as: $$\frac{fv}{k_BT} = \phi_A \ln (\phi_A) + (1 - \phi_A) \ln (1 - \phi_A) + \chi \phi_A^2 $$, where $\phi_A$ is the volume fraction of particle $A$ and $1-\phi_A$ is the volume fraction of species $B$.</p>
-<p>The free energy surface is hereby defined as the function of $\phi_A$ and $\chi_A$, and the concavity of the surface defines the stable, metastable (homogeneous mixture), and <strong>unstable</strong> phases, separated by <strong>binodal</strong> and <strong>spinodal</strong> lines.</p>
+<p>The free energy surface is hereby defined as the function of $\phi_A$ and $\chi_A$, and the concavity of the surface defines the <strong>stable</strong>, <strong>metastable</strong> (homogeneous mixture), and <strong>unstable</strong> phases, separated by <strong>binodal</strong> and <strong>spinodal</strong> lines.</p>
 <p>The spindoal line can be solved analytically by finding the inflection point of free energy surface with respect to volume fraction $\phi_A$. However, the binodal line requires solving the common tangent line of concave up regions, which in principle can only be solved numerically.</p>
 <p>This notebook will then demonstrate the power of Julia in lieu of the commercial software like MATLAB to tackle this problem gracefully, from symbolic differntiation to high-quality publication drawing, all based on open-source package!</p>
 
