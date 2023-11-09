@@ -5,4 +5,4 @@ date: 2023-10-23 11:00:00-0000
 inline: false
 ---
 
-{% twitter https://twitter.com/cyrusyc_tw/status/1716531343587459138 % }
+{% twitter https://twitter.com/cyrusyc_tw/status/1716531343587459138 %}
