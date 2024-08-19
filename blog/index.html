@@ -108,15 +108,6 @@ pagination:
     {% capture unsplash %}https://source.unsplash.com/random/800x200/?nature,city,sky?sig={{ post.content | number_of_words }}{% endcapture %}
 
     <li>
-      {% if post.redirect == blank %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash width="100%" max-width=site.max_width object-fit="cover" %}</a>
-      {% else %}
-        {% if post.redirect contains '://' %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash width="100%" max-width=site.max_width object-fit="cover" %}</a>
-        {% else %}
-        <a href="{{ post.url | prepend: site.baseurl }}">{%- include figure.html path=unsplash width="100%" max-width=site.max_width object-fit="cover" %}</a>
-        {% endif %}
-      {% endif %}
 
       
 {%- if post.thumbnail -%}

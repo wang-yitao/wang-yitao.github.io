@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome! You have bumped into Yuan's personal website. I am now a PhD student in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/) and [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), working with [Prof. Mark Asta](https://asta.mse.berkeley.edu/) on materials under extreme environments in Gen IV molten salt fission reactors (MSR) by leveraging and developing quantum mechanical calculation and machine learning on supercomputers.
+Welcome to my cyber nook! I am **Yuan Chiang** (江元, pronounced as 'You-and John'). I also go by the name **Cyrus**. Currently I am a PhD student in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/) and [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), under the guidance of [Prof. Mark Asta](https://asta.mse.berkeley.edu/). I leverage quantum mechanical calculation and develop machine learning on supercomputers to drive our understanding and innovations in physical sciences. I recently work on the devlopement and benchmark of foundation machine-learning interatomic potential (MLIP) and use them as a probe to understand and design materials under extreme environments in Gen IV molten salt fission reactors (MSRs).
 
 **My research interests** broadly lie in computational materials physics and chemistry at the atomic and molecular levels, with an emphasis on the theory and application of *ab-initio* calculations, molecular dynamics, and machine learning to tackle challenges across energy, materials, pharmaceutics, devices, and computing. 
 
