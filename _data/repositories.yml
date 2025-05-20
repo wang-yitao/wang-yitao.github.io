@@ -2,8 +2,11 @@ github_users:
   - chiang-yuan
 
 github_repos:
-  - chiang-yuan/prodar
-  - chiang-yuan/csh4lmp
-  - chiang-yuan/culsm
-  - materialsproject/pymatgen
+  - chiang-yuan/llamp
+  - atomind-ai/mlip-arena
   - jax-md/jax-md
+  - materialsproject/pymatgen
+  - materialsproject/atomate2
+  - janosh/matbench-discovery
+  - chiang-yuan/prodar
+  - chiang-yuan/culsm

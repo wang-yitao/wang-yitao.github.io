@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD student in MSE at UC Berkeley and LBNL | Berkeley Fellow | Computational Materials Science
+subtitle: PhD candidate at UC Berkeley and LBNL | Berkeley Fellow | AI/ML + Computational Materials Science
 
 profile:
   align: right
@@ -19,9 +19,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my cyber nook! I am **Yuan Chiang** (江元, pronounced as 'You-and John'). I also go by the name **Cyrus**. Currently I am a PhD student in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/) and [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), under the guidance of [Prof. Mark Asta](https://asta.mse.berkeley.edu/). I leverage quantum mechanical calculation and develop machine learning on supercomputers to drive our understanding and innovations in physical sciences. I recently work on the devlopement and benchmark of foundation machine-learning interatomic potential (MLIP) and use them as a probe to understand and design materials under extreme environments in Gen IV molten salt fission reactors (MSRs).
+Welcome to my cyber nook! I am **Yuan Chiang** (江元, pronounced as 'You-and John'). I also go by my coffee name **Cyrus**. I am a PhD candidate in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/) and [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), under the guidance of [Prof. Mark Asta](https://asta.mse.berkeley.edu/). I leverage density functional thoery calculations and develop machine learning models and frameworks on supercomputers to drive our understanding and innovations in AI for physical sciences. Recently I work on the devlopement and benchmark of **foundation machine learning interatomic potential (MLIP)** and use them as a probe to understand and design ferroelectric materials and metal-salt interface in Gen IV molten salt fission reactors (MSRs).
 
-**My research interests** broadly lie in computational materials physics and chemistry at the atomic and molecular levels, with an emphasis on the theory and application of *ab-initio* calculations, molecular dynamics, and machine learning to tackle challenges across energy, materials, pharmaceutics, devices, and computing. 
+**My research interests** more broadly lie in computational materials physics and chemistry at the atomic and molecular levels, with an emphasis on the theory and application of *ab-initio* calculations, molecular dynamics, and AI/ML to tackle challenges across energy, materials, pharmaceutics, devices, and computing. 
+
+---
 
 **Previously** I earned my BS in [Civil Engineering](http://www.ce.ntu.edu.tw/en/) and MS in [Structural Engineering](http://www.ce.ntu.edu.tw/en/) at [National Taiwan University](https://www.ntu.edu.tw/english/index.html), under the supervision of [Prof. Shu-Wei Chang](https://www.swc-lab.tw/). I was a structural engineering intern at [T.Y. LIN](https://www.tylin.com/) in 2018 and was a full-stack intern at [Ucarer](https://ucarer.tw/) in 2021.
 
