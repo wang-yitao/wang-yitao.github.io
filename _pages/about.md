@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <center>
-    <a href="https://bit.ly/cy-gs">Google Scholar</a> | <a href="https://bit.ly/cy-cv">CV</a> | <a href="https://github.com/wang-yitao">GitHub</a>
+    <a href="https://scholar.google.com/citations?user=ZhcVZhwAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/wang-yitao">GitHub</a>
     <center>
 
 news: true  # includes a list of news items
