@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2025-05-08 16:30:00-0000
+date: 2025-03-03 16:30:00-0000
 inline: true
 ---
 
-I passed my qualifying exam and become a PhD candidate! :rocket:
+I passed my proposal defense and become a PhD candidate! :fire:
