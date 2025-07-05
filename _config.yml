@@ -74,16 +74,16 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: wang-yitao # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username:  # your Twitter handle
-linkedin_username: Yitao Wang # your LinkedIn user name
-scholar_userid: kZ2LfBoAAAAJ # your Google Scholar ID
+linkedin_username: yitao-wang # your LinkedIn user name
+scholar_userid: ZhcVZhwAAAAJ&hl=en # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-orcid_id: 0000-0002-4017-7084 # your ORCID ID
+orcid_id: 0000-0003-1596-610X # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
-publons_id: GLR-2596-2022 # your ID on Publons
+publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
-research_gate_profile: Yuan-Chiang-2 # your profile on ResearchGate
+research_gate_profile: Yitao-Wang-8?ev=hdr_xprf # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
@@ -108,10 +108,10 @@ contact_note:
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: G-9SZJ0H8YBL # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: L # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
-google_site_verification: google037ab0289b39719b # your google-site-verification ID (Google Search Console)
+google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
