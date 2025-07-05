@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://wang-yitao.github.io/sitemap.xml
