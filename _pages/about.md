@@ -25,7 +25,7 @@ Welcome! I am **Yitao Wang** (王逸弢). I also go by my coffee name **Tony**. 
 
 ---
 
-**Previously** I earned my BS in [Civil Engineering](http://www.ce.ntu.edu.tw/en/) and MS in [Structural Engineering](http://www.ce.ntu.edu.tw/en/) at [National Taiwan University](https://www.ntu.edu.tw/english/index.html), under the supervision of [Prof. Shu-Wei Chang](https://www.swc-lab.tw/). I was a structural engineering intern at [T.Y. LIN](https://www.tylin.com/) in 2018 and was a full-stack intern at [Ucarer](https://ucarer.tw/) in 2021.
+**Previously** I earned my BS in [Marine Engineering](https://mec.dlmu.edu.cn/) at Dalian Maritime University(https://english.dlmu.edu.cn/) and MS in [Mechanical Engineering](https://www.clemson.edu/cecas/departments/me/) at [Clemson University](https://www.clemson.edu/) under the supervision of [Prof. Zhaoxu Meng](https://cecas.clemson.edu/~zmeng/).
 
 **Yes!** I had an *unorthodox* transition from "civil" to "materials science" (they are at the opposite ends of spectrum in terms of the length scale if you will) after years of working with Prof. Chang in civil engineering department because he is too nice and I was too numb not seeing what I really want to pursue, thanks to the spoon-feeding education system in Taiwan and my self-deception from the uninformed, vague childhood interest in civil structure 🙃. Fortunately, I had Prof. Chang's unwavering guidance that enlightened me to use my gift and interest for fundamental science and technology. :stars:
 
