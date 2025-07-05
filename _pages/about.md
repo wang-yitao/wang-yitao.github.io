@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD candidate at UC Berkeley and LBNL | Berkeley Fellow | AI/ML + Computational Materials Science
+subtitle: PhD candidate at Lehigh University | Computational Materials Science
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <center>
-    <a href="https://bit.ly/cy-gs">Google Scholar</a> | <a href="https://bit.ly/cy-cv">CV</a> | <a href="https://github.com/chiang-yuan">GitHub</a>
+    <a href="https://bit.ly/cy-gs">Google Scholar</a> | <a href="https://bit.ly/cy-cv">CV</a> | <a href="https://github.com/wang-yitao">GitHub</a>
     <center>
 
 news: true  # includes a list of news items
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my cyber nook! I am **Yuan Chiang** (江元, pronounced as 'You-and John'). I also go by my coffee name **Cyrus**. I am a PhD candidate in [Materials Science and Engineering](https://mse.berkeley.edu/) at [UC Berkeley](https://www.berkeley.edu/) and [Lawrence Berkeley National Laboratory](https://www.lbl.gov/), under the guidance of [Prof. Mark Asta](https://asta.mse.berkeley.edu/). I leverage density functional thoery calculations and develop machine learning models and frameworks on supercomputers to drive our understanding and innovations in AI for physical sciences. Recently I work on the devlopement and benchmark of **foundation machine learning interatomic potential (MLIP)** and use them as a probe to understand and design ferroelectric materials and metal-salt interface in Gen IV molten salt fission reactors (MSRs).
+Welcome! I am **Yitao Wang** (王逸弢). I also go by my coffee name **Tony**. I am a PhD candidate in [Materials Science and Engineering](https://engineering.lehigh.edu/mse) at [Lehigh University](https://www2.lehigh.edu/), under the guidance of [Prof. Fadi Abdeljwad](https://engineering.lehigh.edu/faculty/fadi-abdeljawad). I leverage density functional thoery calculations and develop machine learning models and frameworks on supercomputers to drive our understanding and innovations in AI for physical sciences. Recently I work on the devlopement and benchmark of **foundation machine learning interatomic potential (MLIP)** and use them as a probe to understand and design ferroelectric materials and metal-salt interface in Gen IV molten salt fission reactors (MSRs).
 
 **My research interests** more broadly lie in computational materials physics and chemistry at the atomic and molecular levels, with an emphasis on the theory and application of *ab-initio* calculations, molecular dynamics, and AI/ML to tackle challenges across energy, materials, pharmaceutics, devices, and computing. 
 
