@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: Project 2
 description: Radiation Induced Segregation (RIS) at GBs in Metallic Alloys
 img: assets/img/3.jpg
 importance: 2
