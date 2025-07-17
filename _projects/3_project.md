@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3
+title: Project 3
 description: GB Segregation and Chemical Ordering in High-Entropy Alloys (HEAs)
 img: assets/img/7.jpg
 redirect:
